@@ -1,0 +1,22 @@
+{
+    "name": "oyfy/pms",
+    "description": "a php sdk",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "oyfy",
+            "email": "824029856@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rc\\Pms\\": "./src"
+        }
+    },
+
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "v7.0.1"
+    }
+}
